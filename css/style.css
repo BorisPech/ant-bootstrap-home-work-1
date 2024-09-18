@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #F4F7F6;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.bg-color-box-shadow {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.hero-banner {
+    padding: 50px 0;
+}
+
+.hero-banner .row {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-banner .row .ma-top {
+    margin-top: 24px;
+}
+
+.hero-banner .row .card .title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1E1E1E;
+}
+
+.hero-banner .row .col-8 {
+    width: 680px;
+}
+
+.hero-banner .row .col-8 .card img {
+    width: 640px;
+}
+
+.hero-banner .row .col-8 .card .link-photographs {
+    text-decoration: none;
+    display: inline-block;
+    color: #1E1E1E;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.hero-banner .row .col-8 .card .paragrap-details {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #4A4A4A;
+}
+
+.hero-banner .row .col-8 .card .list-comments {
+    list-style-type: none;
+}
+
+.hero-banner .row .col-8 .card .list-comments .list-com {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-banner .row .col-8 .card .list-comments .list-com img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #e8e8e8;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.hero-banner .row .col-8 .card .list-comments .list-com .list-controll .name-user {
+    font-size: 18px;
+    font-weight: 500;
+    color: #373737;
+    text-decoration: none;
+}
+
+.hero-banner .row .col-8 .card .list-comments .list-com .list-controll .text-user-com {
+    font-size: 14px;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin: 2px 0px;
+    line-height: 20px;
+    display: -webkit-box;
+    -webkit-Line-clamp: 2;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+}
+
+.hero-banner .row .col-8 .card .list-comments .list-com .list-controll .date-reply {
+    gap: 50px;
+}
+
+.hero-banner .row .col-8 .card .list-comments .list-com .list-controll .date-reply a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    color: #2492FF;
+    padding: 0 2px;
+}
+
+.hero-banner .row .col-8 .card .list-comments .list-com .list-controll .date-reply a:hover {
+    text-decoration: underline;
+}
+
+span {
+    margin-left: 20px;
+}
+
+.hero-banner .row .col-4 {
+    width: 440px;
+}
+
+.hero-banner .row .col-4 .card .box-search .form-search {
+    width: 400px;
+    height: 42px;
+    padding: 8px;
+    color: #4a4a4a;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #e8e8e8;
+}
+
+.hero-banner .row .col-4 .card .box-search .form-search:focus {
+    border: 1px solid #9ac5f0;
+}
+
+.hero-banner .row .col-4 .card .btn {
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.hero-banner .row .col-4 .card .btn .btn-item .btn-link {
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #9ac5f0;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: #1d7ad6;
+}
+
+.hero-banner .row .col-4 .card .btn .btn-item .btn-link:hover {
+    text-decoration: underline;
+}
+
+.hero-banner .row .col-4 .card .news-popular {
+    width: 400px;
+    padding: 20px;
+    margin-top: 24px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #F4F7F6;
+    text-decoration: none;
+}
+
+.hero-banner .row .col-4 .card .news-popular p {
+    color: #4a4a4a;
+    font-size: 16px;
+}
+
+.hero-banner .row .col-4 .card .news-popular img {
+    width: 280px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #15336B;
+}
